@@ -55,3 +55,18 @@ console.log (numInt.toString())
 let numstring = "29"
 console.log (parseFloat(numstring))
 
+// MÉTODOS
+
+// MÉTODO LENGTH - VERIFICA O TAMANHO DA STRING
+let frase = "O mundo da tecnologia"
+console.log(frase.length)
+
+// MÉTODO indexOf/lastIndexOf - Retorna um trecho do seu código
+let texto = "Programação sustentável";
+console.log (texto.lastIndexOf("ão"))
+
+// MÉTODO slice - retorna parte de um texto, passando o ínicio e o final.
+let info ="Programação de ponta";
+console.log(info.slice(2,6))
+
+// OPERADORES ARITMÉTICOS
