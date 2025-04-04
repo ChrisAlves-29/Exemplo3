@@ -1,37 +1,57 @@
 // DECLARAÇÃO E VARIAVEIS
 
-var nome ="Fiap";
-console.log(nome)
+//var nome ="Fiap";
+//console.log(nome)
 
-let idade =19;
-console.log(idade)
+///let idade =19;
+//console.log(idade)
 
-const sobrenome ="Fiapinho";
-console.log(sobrenome)
+//const sobrenome ="Fiapinho";
+//console.log(sobrenome)
 
 //undefined
 
-let exemplo;
-console.log(exemplo)
+//let exemplo;
+//console.log(exemplo)
 
 //nula
 
-let exemplo1 =null;
-console.log(exemplo1)
+//let exemplo1 =null;
+//console.log(exemplo1)
 
 //TIPOS DE VARIAVEIS
 
-let ex1 ="Fiap";
-console.log(typeof ex1)
+//let ex1 ="Fiap";
+//console.log(typeof ex1)
 
-let ex2 =25;
-console.log(typeof ex2)
+//let ex2 =25;
+//console.log(typeof ex2)
 
-let ex3 =true;
-console.log(typeof ex3)
+//let ex3 =true;
+//console.log(typeof ex3)
 
-let ex4={};
-console.log(typeof ex4)
+// let ex4={};
+//console.log(typeof ex4)
 
-let ex5=[];
-console.log(typeof ex5)
+// let ex5=[];
+//console.log(typeof ex5)
+
+
+//CONVERSÕES
+
+//FLOAT => STRING
+let numfloat = 123.456;
+console.log(numfloat.toString())
+
+// STRING => FLOAT
+let numString = "12.963"
+console.log(parseFloat(numString))
+
+// INT => STRING
+let numInt = 10;
+console.log (numInt.toString())
+
+// STRING => INT
+let numstring = "29"
+console.log (parseFloat(numstring))
+
