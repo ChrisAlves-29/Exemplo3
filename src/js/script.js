@@ -78,7 +78,7 @@
 // console.log(a*b);
 // console.log(a/b);
 
-// OPERADORES LÓGICOS 
+// OPERADORES LÓGICOS
 // const c=20;
 // const d =30;
 
@@ -98,3 +98,70 @@
 
 
 // CONDICIONAL
+// if
+
+if(true){
+    console.log("é verdadeiro")
+}
+
+let exemplo =1
+if(exemplo==1){
+    console.log("Está correto")
+}
+
+
+// If/Else
+
+// let nome = "fiap";
+
+// if (nome=="fiap"){
+//     console.log("Nome correto")
+//     // document.write("Nome certo")
+// }
+// else{
+//     console.log("Nome errado")
+    // document.write("Nome errado")
+// }
+
+// IF enadeado OU Aninhado
+
+// let idade = 12;
+// if(idade<=14){
+//     console.log("Entrada negada")
+// }
+// else if(idade >14 && idade <=18){
+//     console.log("pode entrar e curtir")
+// }
+// else if(idade >18 && idade <=50){
+//     console.log("Perigo, seus pais estão na balada")
+// }
+// else {
+//     console.log("Você deve ficar em casa")
+// }
+
+// Switch case
+
+// let time ="São paulo"
+// switch (time){
+//     case "São paulo":
+//         console.log("Melhor time")
+//         break;
+//     case "Coritnhians":
+//         console.log("é tão ruim que não consegue ganhar em casa")
+//         break;
+//     case "Palmeiras":
+//         console.log("Simplesmente, não tem mundial")
+//         break;
+//     default:
+//         console.log("Nenhuma das opções válidas(Santos)")
+// }
+
+// Ternário ( ? interrogação é o IF /// : dois pontos é ELSE)
+
+let valor =100;
+let resultado = valor ==100 ? "Valor certo" : "Valor errado";
+console.log(resultado);
+
+let nota =4;
+let media = nota /1 >=6 ? "Passou" : "Reprovou";
+console.log(media);
