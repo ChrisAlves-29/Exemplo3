@@ -100,14 +100,14 @@
 // CONDICIONAL
 // if
 
-if(true){
-    console.log("é verdadeiro")
-}
+// if(true){
+//     console.log("é verdadeiro")
+// }
 
-let exemplo =1
-if(exemplo==1){
-    console.log("Está correto")
-}
+// let exemplo =1
+// if(exemplo==1){
+//     console.log("Está correto")
+// }
 
 
 // If/Else
@@ -158,10 +158,38 @@ if(exemplo==1){
 
 // Ternário ( ? interrogação é o IF /// : dois pontos é ELSE)
 
-let valor =100;
-let resultado = valor ==100 ? "Valor certo" : "Valor errado";
-console.log(resultado);
+// let valor =100;
+// let resultado = valor ==100 ? "Valor certo" : "Valor errado";
+// console.log(resultado);
 
-let nota =4;
-let media = nota /1 >=6 ? "Passou" : "Reprovou";
-console.log(media);
+// let nota =4;
+// let media = nota /1 >=6 ? "Passou" : "Reprovou";
+// console.log(media);
+
+
+
+// Estrutura de Repetição
+
+// for(let i=0; i<10;i++){
+//     console.log("O valor de I é", i)
+// }
+
+// While
+
+// let f=0;
+// while(f<10){
+//     console.log("O valor de f é", f)
+//     f++;
+// }
+
+// Do while
+
+// let w=0;
+// do{
+//     console.log("do while", w)
+//     w++
+// }while (w<=20)
+
+
+// Jogo de adivinhação
+let palpite;
